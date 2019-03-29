@@ -7,8 +7,8 @@ export default function(state = {
     console.log(action);
     switch (action.type) {
         case FETCH_PICS:
-        return {...state, pics: action.payload};
+          return {...state, pics: action.payload};
         default:
-            return state;
+          return state;
     }
 }
