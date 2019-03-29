@@ -1,1 +1,0 @@
-export default version = 'version=v2.2'

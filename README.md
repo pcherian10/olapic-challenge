@@ -43,13 +43,20 @@ Rationale/Sources:
 
 
 
-Rationale/Sources:
-Q4 -- Unhappy Customer
-"Our widgets are down! You sent us an email saying our new API key is ready and now we're getting a message saying API key expired!"
+**Rationale/Sources**:
+
+
+###Q4 -- Unhappy Customer
+####"Our widgets are down! You sent us an email saying our new API key is ready and now we're getting a message saying API key expired!"
+
 Note: Due to a bug on our side, the API key that was generated for them was expired at the time they received it. The new API key is now ready
 for them to access in their Olapic account.
-A4:
-Rationale/Sources:
+
+
+**A4:**
+
+
+**Rationale/Sources:**
 
 
 ---------------------------------------------------------------------------------------
