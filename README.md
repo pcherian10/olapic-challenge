@@ -1,4 +1,4 @@
-Olapic Front End Challenge
+
 
 Solutions Architect: Client Response Test
 
