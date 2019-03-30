@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import * as actions from '../actions';
 
 class DisplayPictures extends Component {
-    state = { pics: [] }
 
     componentDidMount () {
         this.props.fetchPics();
@@ -12,13 +11,25 @@ class DisplayPictures extends Component {
     render() {
         return (
             <div>
-                {this.state.pics}
+                {this.props.pics.map(pic =>
+                    <div>
+                        <img key={pic} src={pic} alt={""} />
+                    </div>
+                    )}
             </div>
         )
     }
 }
 
-export default connect(null, actions)(DisplayPictures);
+
+const mapStateToProps = state => {
+    return {
+            pics: state.pics.pics
+          }
+  }
+  
+
+export default connect(mapStateToProps, actions)(DisplayPictures);
 
 
 
