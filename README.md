@@ -8,9 +8,12 @@
 ---------------------------------------------------
 ### Explanation of Logic. ###
 
-I completed the project using React for the basic architecture and Redux for state management. I used the axios library to grab the most recent images from Olapic's media endpoint and then load them into the store. I created a Container component that would load the images from the store using the connect feature of the Redux-Thunk library and then passed them onto a presentational component that displayed them.
+I completed the project using Create React App's basic architecture and Redux for state management. I used the axios library to grab the most recent images from Olapic's media endpoint and then load them into the store. I created a Container component that would load the images from the store using the `connect` feature of the Redux-Thunk library and then passed them onto a presentational component that displayed them. 
 
-To render the images in the 1 big image vs. 4 smaller images I used CSS grid feature to create two big columns. Then, in the second column, I created a second set of columns that would house each of the smaller images. I defined the properties of the height and width of the large image and ratioed them to be roughly a quarter for the smaller images.
+To render the images in the format of the 1 big image vs. 4 smaller images, I used CSS grid feature to create two big columns. Then, in the second column, I created a second set of columns that would each house of the smaller images. I first defined the properties of the height and width of the large image. Then, I ratioed the smaller image to be roughly a quarter of the large image.
+
+The presentational component mapped through the images that it was fed and passed the first one to the left column and the subsequent ones to the right column.
+
 
 ---------------------------------------------------
 ### Q1 -- Integration Inquiry ###
