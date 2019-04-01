@@ -1,0 +1,31 @@
+* {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.wrapper-lor {
+    padding:75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-1 {
+    height: 400px;
+    width: 100%;
+    grid-column: 1;
+    align-items: start;
+}
+
+.img-2 {
+    height: 200px;
+    width: 100%;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+}
+
