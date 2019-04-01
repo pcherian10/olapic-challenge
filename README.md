@@ -2,8 +2,10 @@
 
 Solutions Architect: Client Response Test
 
-###Q1 -- Integration Inquiry
+### Q1 -- Integration Inquiry ###
+
 ####"Is there an Olapic integration with Demandware? We are in the process of moving to Demandware; if we decided to use Demandware, how would we go about doing that?"
+
 **A1**:
 ```
 Hi *name*,
@@ -17,8 +19,8 @@ Paul
 
 Rationale/Sources:
 ```
-[Demandware](http://www.demandware.com/link-marketplace/olapic)
 
+[Demandware](http://www.demandware.com/link-marketplace/olapic)
 
 
 ###Q2 -- Site Performance Issue
