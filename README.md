@@ -63,12 +63,26 @@ for them to access in their Olapic account.
 
 
 **A4:**
+```
+Hi **name**,
 
+Sorry to hear that you're having technical difficulties currently.
+
+Due to an issue on our side, the API key had expired at the time you had received it. However, this has now been fixed and you will be able to access your Olapic account with your new API key.
+
+Apologies for your troubles.
+
+Let me know if I can help any further.
+
+Thanks,
+Paul
+
+```
 
 **Rationale/Sources:**
+Given that the issue has already been resolved, this is an exercise in being tactful. I apologized and explained the situation and suggested a new course of action. 
 
-
----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 Solutions Architect: Product Feed Validation
 
