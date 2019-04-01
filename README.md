@@ -1,6 +1,7 @@
 
 ### Instructions ###
 - Clone the repo
+- Change directory into client folder
 - Ensure you're running Node 8 or greater - you can run `nvm install node` to grab the latest version
 - Run `npm install` and allow packages to be installed
 - Run `npm start` to get images running on a local server.
@@ -47,7 +48,7 @@ See the link below to Demandware
 
 Hi **name**,
 
-There are a number of things we can try to get the load times higher including a controlling the load sequence,
+There are a number of things we can try to get the load times higher including controlling the load sequence,
 tweaking the image size, implementing load of images only within your viewpoint, and optimizing the number of photos.
 
 Detailed instructions are available in our help documentation here:
