@@ -1,3 +1,17 @@
+
+### Instructions ###
+- Clone the repo
+- Ensure you're running Node 8 or greater - you can run `nvm install node` to grab the latest version
+- Run `npm install` and allow packages to be installed
+- Run `npm start` to get images running on a local server.
+
+---------------------------------------------------
+### Explanation of Logic. ###
+
+
+
+
+---------------------------------------------------
 ### Q1 -- Integration Inquiry ###
 
 #### "Is there an Olapic integration with Demandware? We are in the process of moving to Demandware; if we decided to use Demandware, how would we go about doing that?" ####
