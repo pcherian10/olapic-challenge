@@ -20,8 +20,8 @@ See the link below to Demandware
 [Demandware](http://www.demandware.com/link-marketplace/olapic)
 
 
-###Q2 -- Site Performance Issue
-####"We are noticing that our page is loading slowly. We have 50 high-resolution images loading in the Olapic carousel and we'd like to speed it up!".
+### Q2 -- Site Performance Issue ###
+#### "We are noticing that our page is loading slowly. We have 50 high-resolution images loading in the Olapic carousel and we'd like to speed it up!". ####
 
 **A2**:
 
@@ -30,23 +30,33 @@ See the link below to Demandware
 
 **Rationale/Sources:**
 
-###Q3 -- Customization Request
-####"Unless Olapic JS widgets support IE8, it looks like we may have to take our business elsewhere. What can you do to make this happen?"
+### Q3 -- Customization Request ###
+#### "Unless Olapic JS widgets support IE8, it looks like we may have to take our business elsewhere. What can you do to make this happen?" ####
 
 *Note: Olapic widgets only support IE9+ and modern browsers. Olapic API is often used as an alternative to Olapic JS widgets.*
 
 **A3**:
 
+```
+Hey **name**,
+I understand your frustration **name**, but currently, Olapic only supports IE9+ and other modern browsers. 
 
+However, I'd urge you to take a look at JS widgets as an alternative. I've attached the documentation to get started below:
 
+http://photorank.me/api.html
 
+Let me know if you've an questions!
 
-
+Thanks,
+Paul
+```
 **Rationale/Sources**:
+[Olapic API Docs](http://photorank.me/api.html)
 
 
-###Q4 -- Unhappy Customer
-####"Our widgets are down! You sent us an email saying our new API key is ready and now we're getting a message saying API key expired!"
+### Q4 -- Unhappy Customer ####
+
+#### "Our widgets are down! You sent us an email saying our new API key is ready and now we're getting a message saying API key expired!" ####
 
 Note: Due to a bug on our side, the API key that was generated for them was expired at the time they received it. The new API key is now ready
 for them to access in their Olapic account.
