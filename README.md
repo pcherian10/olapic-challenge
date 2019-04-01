@@ -47,7 +47,7 @@ See the link below to Demandware
 
 Hi **name**,
 
-We can certainly try to help you here! There are a number of things we can try to get the load times higher including a controlling the load sequence,
+There are a number of things we can try to get the load times higher including a controlling the load sequence,
 tweaking the image size, implementing load of images only within your viewpoint, and optimizing the number of photos.
 
 Detailed instructions are available in our help documentation here:
