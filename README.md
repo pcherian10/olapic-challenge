@@ -8,6 +8,8 @@
 ---------------------------------------------------
 ### Explanation of Logic. ###
 
+I completed the project using React and Redux. I used XML to grab the images and then run them
+
 
 
 
@@ -112,4 +114,24 @@ Our validation tool can be found here: http://developer.olapic.com/articles/prod
 
 
 Issues Caught & Suggested Fixes:
+```
+Hi **name**,
+
+Thanks for sending over the feed file. After running a validation test however, there were a couple of changes that needed to be made. They are listed below:
+
+1) The <Name> tag on Line 78 does not has an '&' ampersand character. This is not allowed and the encoded symbol: '&amp;' should be used.
+2) The <ProductUniqueID> tag cannot have any spaces between the enclosing tag. Thus, 'APTS-02 Blue' should be 'APTS-02Blue'
+
+After these issues have been fixed, the file validates and the Product Feed can be created.
+
+Let me know if you've any questions!
+
+Thanks,
+Paul Cherian
+```
+
+
+
+
+
 

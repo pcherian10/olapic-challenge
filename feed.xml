@@ -58,7 +58,7 @@
 
         <Product>
             <Name>Awesome Possum T-shirt Blue</Name>
-            <ProductUniqueID>APTS-02 Blue</ProductUniqueID>
+            <ProductUniqueID>APTS-02Blue</ProductUniqueID>
             <ProductUrl>http://www.myawesomestore.com/products/APTS?color=02</ProductUrl>
             <ImageUrl>http://www.myawesomestore.com/images/APTS-black.jpg</ImageUrl>
             <Description>This is an example description of my Awesome Possum T-shirt</Description>
@@ -75,7 +75,7 @@
         </Product>
 
         <Product>
-            <Name>Awesome Possum T-shirt & Shorts Red</Name>
+            <Name>Awesome Possum T-shirt &amp; Shorts Red</Name>
             <ProductUniqueID>APTS-03</ProductUniqueID>
             <ProductUrl>http://www.myawesomestore.com/products/APTS?color=03</ProductUrl>
            <ImageUrl>http://www.myawesomestore.com/images/APTS-red.jpg</ImageUrl>
@@ -92,6 +92,6 @@
         </Product>
 
     </Products>
-    
+
 </Feed>
            
