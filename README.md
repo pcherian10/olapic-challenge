@@ -1,7 +1,3 @@
-
-
-Solutions Architect: Client Response Test
-
 ### Q1 -- Integration Inquiry ###
 
 ####"Is there an Olapic integration with Demandware? We are in the process of moving to Demandware; if we decided to use Demandware, how would we go about doing that?"
@@ -10,7 +6,7 @@ Solutions Architect: Client Response Test
 ```
 Hi *name*,
 
-Yes, we do have Olapic integration with Demandware, and it can be downloaded from Salesforce Commerce Cloud. The integration has features like Widget Management and the Product Feed, so it should be fairly similar. You can download the integration **here - linked**. There are also a few helpful resources available for you to review.
+Yes, we do have Olapic integration with Demandware, and it can be downloaded from Salesforce Commerce Cloud. The integration has features like Widget Management and the Product Feed, so it should be fairly similar. You can download the integration here (http://www.demandware.com/link-marketplace/olapic). There are also a few helpful resources available for you to review.
 
 Let me know if you run into any issues or have further questions.
 
@@ -18,6 +14,7 @@ Thanks,
 Paul
 
 Rationale/Sources:
+See the link below to Demandware
 ```
 
 [Demandware](http://www.demandware.com/link-marketplace/olapic)
