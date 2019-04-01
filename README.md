@@ -8,10 +8,9 @@
 ---------------------------------------------------
 ### Explanation of Logic. ###
 
-I completed the project using React and Redux. I used XML to grab the images and then run them
+I completed the project using React for the basic architecture and Redux for state management. I used the axios library to grab the most recent images from Olapic's media endpoint and then load them into the store. I created a Container component that would load the images from the store using the connect feature of the Redux-Thunk library and then passed them onto a presentational component that displayed them.
 
-
-
+To render the images in the 1 big image vs. 4 smaller images I used CSS grid feature to create two big columns. Then, in the second column, I created a second set of columns that would house each of the smaller images. I defined the properties of the height and width of the large image and ratioed them to be roughly a quarter for the smaller images.
 
 ---------------------------------------------------
 ### Q1 -- Integration Inquiry ###
@@ -41,10 +40,28 @@ See the link below to Demandware
 
 **A2**:
 
+```
+
+Hi **name**,
+
+We can certainly try to help you here! There are a number of things we can try to get the load times higher including a controlling the load sequence,
+tweaking the image size, implementing load of images only within your viewpoint, and optimizing the number of photos.
+
+Detailed instructions are available in our help documentation here:
+
+http://developer.olapic.com/articles/widget-load-optimization-guide.html#use-appropriate-image-size
 
 
+Let me know if you'd like assistance on implementing any of the above and I can certainly assist.
 
+Thanks,
+Paul
+
+```
 **Rationale/Sources:**
+Depending on the issue after a deeper look into the customer's account, we may be able to implement some of the procedures here:
+[Carousel Optimization](http://developer.olapic.com/articles/widget-load-optimization-guide.html#use-appropriate-image-size)
+
 
 ### Q3 -- Customization Request ###
 #### "Unless Olapic JS widgets support IE8, it looks like we may have to take our business elsewhere. What can you do to make this happen?" ####
