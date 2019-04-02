@@ -7,7 +7,6 @@ import '../DisplayPictures.css'
 
 
 class DisplayPictures extends Component {
-    state = { currentPics: []}
 
     componentDidMount () {
         this.props.fetchPics();
