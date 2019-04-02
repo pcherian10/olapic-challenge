@@ -1,31 +1,22 @@
-body {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px;
-}
-
-
 .wrapper-lor {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.img-1 {
+.img-1-right {
     height: 400px;
     width: 100%;
-    grid-column: 1;
-    align-items: start;
+    grid-column: 2
 }
 
-.img-2 {
+.img-2-right {
     height: 200px;
     width: 100%;
 }
 
-.nested {
+.nestedRight {
+    grid-column: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 200px;
 }
-
